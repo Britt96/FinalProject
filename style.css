@@ -1,0 +1,26 @@
+/* Formats application including table and jumbotron */
+
+.jumbotron {
+  background-image: url(bookshelf.jpg);
+  height: 100vh;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+table {
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+
+label {
+  padding: 5px!important;
+}
